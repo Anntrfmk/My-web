@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    
+}
+.navbar-toggler{
+    border-color:azure;
+}
+.nav-item{
+    display:flex;
+    align-items:end;
+}
+.block{
+    background-color: #002E4B;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+}
+.about{
+    display: flex;
+   justify-content:end;
+    padding: 10px;
+    gap: 10px;
+}
+.text{
+    color: azure;
+    font-family: Bitcount Ink;
+    margin-left: 16px;
+    margin-top: 30px;
+}
+.big_text{
+    color: azure;
+    font-family: Bitcount Ink;
+    font-size: 100px;
+}
+.lang{
+    color:azure;
+    font-family: 'Material Symbols Outlined';  
+    font-weight: 300;
+    font-size: 50px;
+}
+.projects{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding:40px;
+    justify-items:center;
+    max-width: 1000px;
+} 
+.card{
+    width: 15rem;
+    box-shadow: -2px 2px 6px 6px #88e0eb;
+}
+.active{
+    box-shadow:0px 2px 0px 0px#88e0eb;
+}
+.card-img-top{
+    height: 200px;
+    object-fit: cover;
+}
+
+.butt{
+    background-color:#88e0eb;
+    color:#002E4B;
+    margin-left: 110px;
+    border-radius: 25px;
+}
+.butt:hover{
+    background-color:#002E4B;
+    color:#88e0eb;
+}
+.contact{
+    background-color: #002E4B;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+}
+.contacts{
+    font-family: 'Times New Roman', Times, serif;
+    color:#88e0eb;
+}
+
+.main{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    gap: 50px;
+    padding: 20px;
+}
+.Form{
+    flex: 1;
+    max-width: 400px;
+}
+@media (max-width:768px) {
+    .main{
+        flex-direction: column;
+    }
+    
+}
+input, textarea{
+    margin: 5px;
+    padding: 10px;
+    font-size: 200px;
+    width: 300px;
+}
+textarea{
+    height: 100px;
+}
+button{
+    padding: 10px 10px;
+}
+.box{
+    width: 300px;
+    box-shadow: -2px 2px 6px 6px #88e0eb;
+}
+.me{
+    height: 350px;
+    width: 350px;
+}
