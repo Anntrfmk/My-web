@@ -122,7 +122,7 @@ button{
 }
 
 
-@media screen {
+@media screen  and (max-width: 480px) {
     .block{
     overflow-x: hidden;
     background-color: #002E4B;
