@@ -121,6 +121,31 @@ button{
     width: 350px;
 }
 
+.card-body{
+    background-color:#002E4B;
+    color:#88e0eb;
+}
+.card-title{
+    color:#88e0eb!important;
+}
+.projLang{
+    background-color:#002E4B;
+    display:grid;
+    align-items:start;
+    justify-content: center;
+    grid-template-columns: repeat(3, 2fr);
+    gap:2px;
+    padding: 5px;
+
+}
+.useLang{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    color:#88e0eb;
+    border: 2px solid #88e0eb;
+    border-radius:10px;
+}
 
 @media screen  and (max-width: 480px) {
     .block{
