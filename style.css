@@ -30,6 +30,7 @@ body{
     gap: 10px;
 }
 .hero {
+    background-color: #002E4B;
   display: flex;
   align-items: center; 
   gap: 40px;         
