@@ -29,11 +29,30 @@ body{
     padding: 10px;
     gap: 10px;
 }
-.text{
-    color: azure;
-    font-family: Bitcount Ink;
-    margin-left: 16px;
-    margin-top: 30px;
+.hero {
+  display: flex;
+  align-items: center; 
+  gap: 40px;         
+  max-width: 1000px;
+  margin: 50px auto; 
+}
+
+.me.box {
+  width: 300px;      
+  height: auto;
+  border-radius: 20px; 
+}
+
+.hero-text-block {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;         
+}
+
+.text {
+  font-size: 1.2rem;
+  color: #cbd5e1;
+  margin: 0;
 }
 .big_text{
     color: azure;
